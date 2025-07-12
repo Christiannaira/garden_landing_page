@@ -4,3 +4,4 @@ export {default as About} from "./about/About";
 export {default as Cta} from "./cta/Cta";
 export {default as Signup} from "./signup/Signup";
 export {default as Login} from "./login/Login";
+export {default as Main} from "./main/Main";

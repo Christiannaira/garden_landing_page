@@ -1,9 +1,11 @@
+import {Navbar, Main} from "./components/imports"
 
 function App() {
 
   return (
     <>
-    hello world
+    <Navbar/>
+    <Main/>
     </>
   )
 }
