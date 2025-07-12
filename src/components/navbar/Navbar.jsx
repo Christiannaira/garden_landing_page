@@ -6,11 +6,11 @@ const Navbar = () => {
       <section className="navbar" id="navbar">
         <div className="navbar-content">
           <div className="navbar-content_image">
-            Logo  
+            Garden AI
           </div>
           <div className="navbar-content_buttons">
-            <button>Login</button>
-            <button>Signup</button>
+            <button className="login-btn">Login</button>
+            <button className="signup-btn">Signup</button>
           </div>
         </div>
 
