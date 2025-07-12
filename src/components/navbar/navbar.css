@@ -19,10 +19,25 @@
     border: none;
     font-size: 14px;
     font-weight: 600;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.navbar-content_buttons button:hover {
+    background-color: rgb(152, 135, 204, .3);
 }
 
 .navbar-content_buttons button:last-child {
     margin-left: 1rem;
     background-color: #AA97E2;
     color: #1E2029;
+}
+
+.navbar-content_buttons button:last-child:hover {
+    background-color: #9887cc;
+}
+
+/*making menu icon not visible on desktop mode*/
+.navbar-content_menu {
+    display: none;
 }

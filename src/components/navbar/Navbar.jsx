@@ -1,4 +1,5 @@
 import "./navbar.css";
+import { CiMenuBurger } from "react-icons/ci";
 
 const Navbar = () => {
   return (
@@ -11,6 +12,9 @@ const Navbar = () => {
           <div className="navbar-content_buttons">
             <button className="login-btn">Login</button>
             <button className="signup-btn">Signup</button>
+          </div>
+          <div className="navbar-content_menu">
+            <CiMenuBurger/>
           </div>
         </div>
 
